@@ -6,7 +6,7 @@ import {registerRoutes} from "./routes";
 
 export const app = Fastify({ logger: true });
 
-// Serve redoc.standalone.js statically
+// Serve static files
 app.register(fastifyStatic, {
     root: path.join(__dirname, '../../node_modules/redoc/bundles'),
     prefix: '/assets/',

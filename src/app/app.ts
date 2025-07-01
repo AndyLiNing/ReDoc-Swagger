@@ -1,5 +1,6 @@
 import path from "node:path";
 import Fastify from "fastify";
+
 import fastifyStatic from "@fastify/static";
 
 import {registerRoutes} from "./routes";
@@ -15,4 +16,3 @@ app.register(fastifyStatic, {
 });
 
 registerRoutes(app);
-

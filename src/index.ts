@@ -8,6 +8,3 @@ app.listen({ port: 3001 }, (err, address) => {
     }
     console.log(`📘 Local ReDoc is now available at: ${address}/docs`);
 });
-
-
-

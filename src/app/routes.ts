@@ -1,7 +1,7 @@
 import { FastifyInstance } from 'fastify';
 
-import swaggerServiceDocument from '../assets/swagger_service.json';
-import swaggerResourceDocument from '../assets/swagger_resource.json';
+import swaggerServiceDocument from '../../assets/swagger_service.json';
+import swaggerResourceDocument from '../../assets/swagger_resource.json';
 import { template } from './template';
 
 export const registerRoutes = (app: FastifyInstance) => {

@@ -1,5 +1,5 @@
 // Start server
-import { app } from "./app";
+import { app } from "./app/app";
 
 app.listen({ port: 3001 }, (err, address) => {
     if (err) {
